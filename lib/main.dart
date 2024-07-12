@@ -58,9 +58,9 @@ MaterialColor getWeatherColor(String condition) {
     case 'thundery outbreaks possible':
       return Colors.blue;
     case 'blowing snow':
-      return Colors.white;
+      return Colors.grey;
     case 'blizzard':
-      return Colors.white;
+      return Colors.grey;
     case 'fog':
       return Colors.grey;
     case 'freezing fog':
@@ -134,7 +134,7 @@ MaterialColor getWeatherColor(String condition) {
     case 'moderate or heavy snow with thunder':
       return Colors.blue;
     default:
-      return Colors.black;
+      return Colors.grey;
   }
 }
 
